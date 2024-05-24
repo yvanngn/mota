@@ -64,7 +64,7 @@ function filter_photos() {
             'order' => $sort,
         );
     }
-    var_dump($args);
+  //  var_dump($args);
     $query = new WP_Query($args);
 
     if ($query->have_posts()) :
